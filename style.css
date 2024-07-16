@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
+    font-family: "Source Code Pro";
     overflow: hidden;
     font-size: larger;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
     color: aliceblue;
     height: 100vh;
     margin: 0;
@@ -16,18 +18,18 @@ main {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(45deg, #007BFF, #00FF7F);
+    background: linear-gradient(45deg, white, gray, black);
     margin: 0;
     padding: 0;
 }
 
 .calc {
-    background: linear-gradient(45deg, red, black);
+    background-color: rgba(0, 0 ,0, 0.5);
     padding: 5px;
     width: 25%;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: blue;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 table {
@@ -36,24 +38,33 @@ table {
 }
 
 td {
-    background-color: gray;
+    border-radius: 15px;
     width: 50px;
     height: 50px;
+    overflow: hidden;
 }
 
 button {
+    font-family: "Source Code Pro";
+    border-radius: 15px;
+    color: white;
+    border: 2px solid black ;
+    background-color: transparent;
     width: 100%;
     height: 100%;
     text-align: center;
     font-size: x-large;
+}
+button:hover{
+    background-color: rgba(148, 148, 148, 0.5);
 }
 
 p {
     font-size: x-large;
     text-indent: 10px;
     color: black;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.5);
     height: 50px;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 15px;
+    border: 2px solid black;
 }

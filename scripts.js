@@ -13,7 +13,8 @@ function calc(){
     if(result == ''){
         alert("Digite algo primeiro")
     }else{
-        p.innerHTML = eval(result)
+        var value = eval(result)
+        p.innerHTML = value.toFixed(2)
     }
     
 }
